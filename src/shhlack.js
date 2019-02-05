@@ -905,7 +905,7 @@ ts_tip_hidden"  aria-labelledby="shhlack_ts_tip_tip_shhlack" tabindex="-1">
     var currentKey = passes.getCurrentKey();
     if (!container_el) {
       document.addEventListener('keyup', function(ev) {
-        if (ev.altKey && ev.key === CHAR && !TS.generic_dialog.is_showing) {
+        if (ev.ctrlKey && ev.key === CHAR && !TS.generic_dialog.is_showing) {
           launchDialog(0);
         } else if (ev.key === 'Escape' && TS.generic_dialog.is_showing) {
           TS.generic_dialog.cancel();
