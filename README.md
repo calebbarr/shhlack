@@ -73,7 +73,7 @@ After building and running the install script, Shhlack should work when you logi
 The first time you use Shhlack, you will be asked to add at least one passphrase to use for encryption/decryption. 
 You can alternatively give a previously saved file to share the passphrases between clients/PCs/peers.
 
-Press `Alt-S` or click on the Shhlack extension icon (extension only) and you'll get:
+Press `Ctrl-S` or click on the Shhlack extension icon (extension only) and you'll get:
 
 <img src="https://user-images.githubusercontent.com/1196560/39006265-d8114e10-4402-11e8-873c-266c6be34a04.png" width="250">
 
